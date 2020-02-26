@@ -1,8 +1,14 @@
 # PS-Get-PassPhrase
 PowerShell script to build a passphrase by rolling 5 dice.
 
+```
+PS C:\> Import-Module .\Get-PassPhrase.ps1 -Force
+PS C:\> Get-Help Get-Passphrase -Full
+```
+More information and examples can be found using Get-Help, see output below:
+```
 NAME
-    Get-Passphrase
+    Get-PassPhrase
 
 SYNOPSIS
     Build Passphrase using dice rolls.
