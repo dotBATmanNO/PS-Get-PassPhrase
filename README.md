@@ -1,5 +1,5 @@
 # PS-Get-PassPhrase
-PowerShell script to build a passphrase by rolling 5 dice.
+PowerShell module to build a passphrase by rolling 5 dice.
 The assumption is that we use the wordlist eff_large_wordlist.txt from https://www.eff.org/dice.
 But it is possible to build your own wordlist.
 
