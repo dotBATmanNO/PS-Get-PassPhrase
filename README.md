@@ -1,6 +1,8 @@
 # PS-Get-PassPhrase
 PowerShell script to build a passphrase by rolling 5 dice.
 
+Output is accessible in PowerShell pipeline.
+
 ```
 PS C:\> Import-Module .\Get-PassPhrase.ps1 -Force
 PS C:\> Get-Help Get-Passphrase -Full
@@ -66,27 +68,26 @@ PARAMETERS
 
     -------------------------- EXAMPLE 1 --------------------------
 
-    PS C:\Scripts\Get-PassPhrase>Import-Module .\Get-PassPhrase.ps1 -Force
+    PS C:\Scripts\Get-PassPhrase> Import-Module .\Get-PassPhrase.ps1 -Force
     PS C:\Scripts\Get-PassPhrase> Get-PassPhrase
     BaconAcornMultiply
 
     -------------------------- EXAMPLE 2 --------------------------
 
-    PS C:\Scripts\Get-PassPhrase>Import-Module .\Get-PassPhrase.ps1 -Force
+    PS C:\Scripts\Get-PassPhrase> Import-Module .\Get-PassPhrase.ps1 -Force
     PS C:\Scripts\Get-PassPhrase> Get-PassPhrase -Words 4 -Space 1
     Guide Promenade Epileptic Snowboard
 
     -------------------------- EXAMPLE 3 --------------------------
 
-    PS C:\Scripts\Get-PassPhrase>Import-Module .\Get-PassPhrase.ps1 -Force
-
+    PS C:\Scripts\Get-PassPhrase> Import-Module .\Get-PassPhrase.ps1 -Force
     PS C:\Scripts\Get-PassPhrase> Get-WordList -Casing lower
     PS C:\Scripts\Get-PassPhrase> Get-PassPhrase -Words 4 -Space 1
     number dining shelter landlady
 
     -------------------------- EXAMPLE 4 --------------------------
 
-    PS C:\Scripts\Get-PassPhrase>Import-Module .\Get-PassPhrase.ps1 -Force
+    PS C:\Scripts\Get-PassPhrase> Import-Module .\Get-PassPhrase.ps1 -Force
     PS C:\Scripts\Get-PassPhrase> "User", "UserName", "UserLongName" | ForEach-Object -Process { Get-PassPhrase -User $_ }
     User                    GearDaycareShed
     UserName                JaundiceBrookReliable
