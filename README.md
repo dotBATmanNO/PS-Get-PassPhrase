@@ -105,4 +105,4 @@ PARAMETERS
     UserLongName            Astronaut Problem Kissable Harmonize
 
 RELATED LINKS
-    https://github.com/dotBATman_no/ps-Get-PassPhrase/
+    https://github.com/dotBATmanNO/ps-Get-PassPhrase/
