@@ -14,7 +14,7 @@
         Import-Module .\Get-PassPhrase.ps1 -Force
      
   .LINK
-   https://github.com/dotBATman_no/ps-Get-PassPhrase/
+   https://github.com/dotBATmanNO/ps-Get-PassPhrase/
 
    .EXAMPLE
    PS C:\Scripts\Get-PassPhrase> Import-Module .\Get-PassPhrase.ps1 -Force
